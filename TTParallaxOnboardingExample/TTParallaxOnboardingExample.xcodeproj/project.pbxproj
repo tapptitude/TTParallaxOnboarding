@@ -13,6 +13,8 @@
 		D77E757224D30DD100DAE760 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77E757024D30DD100DAE760 /* Main.storyboard */; };
 		D77E757424D30DD400DAE760 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77E757324D30DD400DAE760 /* Assets.xcassets */; };
 		D77E757724D30DD400DAE760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77E757524D30DD400DAE760 /* LaunchScreen.storyboard */; };
+		D77E758124D3328F00DAE760 /* OnboardingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D77E758024D3328F00DAE760 /* OnboardingView.xib */; };
+		D77E758324D332A400DAE760 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E758224D332A400DAE760 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +26,8 @@
 		D77E757324D30DD400DAE760 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D77E757624D30DD400DAE760 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D77E757824D30DD400DAE760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D77E757E24D30E4700DAE760 /* TTParallaxOnboarding */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TTParallaxOnboarding; path = ..; sourceTree = "<group>"; };
+		D77E758024D3328F00DAE760 /* OnboardingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingView.xib; sourceTree = "<group>"; };
+		D77E758224D332A400DAE760 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +44,6 @@
 		D77E755E24D30DD100DAE760 = {
 			isa = PBXGroup;
 			children = (
-				D77E757E24D30E4700DAE760 /* TTParallaxOnboarding */,
 				D77E756924D30DD100DAE760 /* TTParallaxOnboardingExample */,
 				D77E756824D30DD100DAE760 /* Products */,
 			);
@@ -61,12 +63,22 @@
 				D77E756A24D30DD100DAE760 /* AppDelegate.swift */,
 				D77E756C24D30DD100DAE760 /* SceneDelegate.swift */,
 				D77E756E24D30DD100DAE760 /* ViewController.swift */,
+				D77E757F24D3325200DAE760 /* OnboardingView */,
 				D77E757024D30DD100DAE760 /* Main.storyboard */,
 				D77E757324D30DD400DAE760 /* Assets.xcassets */,
 				D77E757524D30DD400DAE760 /* LaunchScreen.storyboard */,
 				D77E757824D30DD400DAE760 /* Info.plist */,
 			);
 			path = TTParallaxOnboardingExample;
+			sourceTree = "<group>";
+		};
+		D77E757F24D3325200DAE760 /* OnboardingView */ = {
+			isa = PBXGroup;
+			children = (
+				D77E758024D3328F00DAE760 /* OnboardingView.xib */,
+				D77E758224D332A400DAE760 /* OnboardingView.swift */,
+			);
+			path = OnboardingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D77E757724D30DD400DAE760 /* LaunchScreen.storyboard in Resources */,
+				D77E758124D3328F00DAE760 /* OnboardingView.xib in Resources */,
 				D77E757424D30DD400DAE760 /* Assets.xcassets in Resources */,
 				D77E757224D30DD100DAE760 /* Main.storyboard in Resources */,
 			);
@@ -141,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D77E756F24D30DD100DAE760 /* ViewController.swift in Sources */,
+				D77E758324D332A400DAE760 /* OnboardingView.swift in Sources */,
 				D77E756B24D30DD100DAE760 /* AppDelegate.swift in Sources */,
 				D77E756D24D30DD100DAE760 /* SceneDelegate.swift in Sources */,
 			);
@@ -289,6 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G7T599BH7B;
 				INFOPLIST_FILE = TTParallaxOnboardingExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G7T599BH7B;
 				INFOPLIST_FILE = TTParallaxOnboardingExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

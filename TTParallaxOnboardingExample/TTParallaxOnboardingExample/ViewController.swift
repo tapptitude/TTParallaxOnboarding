@@ -7,12 +7,21 @@
 //
 
 import UIKit
+import TTParallaxOnboarding
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var onboardingView: OnboardingView!
+    
+    var parralaxBehavior: TTParallaxOnboardingBehavior!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+//        parralaxBehavior = TTParallaxOnboarding(scrollView: self.scrollView)
+//        onboardingView.configure(for: parralaxBehavior)
+        
+        
     }
 }
 
