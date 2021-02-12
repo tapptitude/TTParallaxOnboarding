@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		D77E757724D30DD400DAE760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77E757524D30DD400DAE760 /* LaunchScreen.storyboard */; };
 		D77E758124D3328F00DAE760 /* OnboardingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D77E758024D3328F00DAE760 /* OnboardingView.xib */; };
 		D77E758324D332A400DAE760 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E758224D332A400DAE760 /* OnboardingView.swift */; };
+		D7C3441F25D6809600D63D6D /* TTParallaxOnboarding in Frameworks */ = {isa = PBXBuildFile; productRef = D7C3441E25D6809600D63D6D /* TTParallaxOnboarding */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D77E757824D30DD400DAE760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D77E758024D3328F00DAE760 /* OnboardingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnboardingView.xib; sourceTree = "<group>"; };
 		D77E758224D332A400DAE760 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		D7C3441B25D6801F00D63D6D /* TTParallaxOnboarding */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TTParallaxOnboarding; path = ../../../Desktop/TTParallaxOnboarding; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7C3441F25D6809600D63D6D /* TTParallaxOnboarding in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,8 +47,10 @@
 		D77E755E24D30DD100DAE760 = {
 			isa = PBXGroup;
 			children = (
+				D7C3441B25D6801F00D63D6D /* TTParallaxOnboarding */,
 				D77E756924D30DD100DAE760 /* TTParallaxOnboardingExample */,
 				D77E756824D30DD100DAE760 /* Products */,
+				D7C3441D25D6809600D63D6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +86,13 @@
 			path = OnboardingView;
 			sourceTree = "<group>";
 		};
+		D7C3441D25D6809600D63D6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,6 +109,9 @@
 			dependencies = (
 			);
 			name = TTParallaxOnboardingExample;
+			packageProductDependencies = (
+				D7C3441E25D6809600D63D6D /* TTParallaxOnboarding */,
+			);
 			productName = TTParallaxOnboardingExample;
 			productReference = D77E756724D30DD100DAE760 /* TTParallaxOnboardingExample.app */;
 			productType = "com.apple.product-type.application";
@@ -356,6 +371,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D7C3441E25D6809600D63D6D /* TTParallaxOnboarding */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TTParallaxOnboarding;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D77E755F24D30DD100DAE760 /* Project object */;
 }

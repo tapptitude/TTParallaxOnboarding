@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var onboardingView: OnboardingView!
     
-    var parralaxBehavior: TTParallaxOnboardingBehavior!
+    var parralaxBehavior: TTParallaxOnboarding!
     
     override func viewDidLoad() {
         super.viewDidLoad()
