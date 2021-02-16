@@ -43,7 +43,7 @@ let onboardingView = OnboardingView()
 scrollView.set(contentView: onboardingView, pageCount: 3)
 ```
 
-4. Assign a depth to each of your layer view. The depth value needs to be betwen 0.0 and 1.0. The greater the value is the farther and object will be when scrolling. For example some distant mountains would be 0.9 and somehting just in front of the scene will be 0.0 (this will scroll at the same rate with the ScrollView). 
+4. Assign a depth to each of your layer view. The depth value needs to be betwen 0.0 and 1.0. The greater the value is the farther the object will look when scrolling. For example some distant mountains would be 0.9 and somehting just in front of the scene will be 0.0 (this will scroll at the same rate with the ScrollView). 
 
 ```swift
 self.scrollView.addParallax(to: onboardingView.rocket, depth: 0.4)
