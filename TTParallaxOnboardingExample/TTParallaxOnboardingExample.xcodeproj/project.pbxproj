@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D71983E425DBD6BD0070D60A /* TTParallaxOnboarding */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TTParallaxOnboarding; path = ../TTParallaxOnboarding; sourceTree = "<group>"; };
+		D719841025DBE1250070D60A /* TTParallaxOnboarding */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TTParallaxOnboarding; path = ..; sourceTree = "<group>"; };
 		D77E756724D30DD100DAE760 /* TTParallaxOnboardingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTParallaxOnboardingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D77E756A24D30DD100DAE760 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D77E756C24D30DD100DAE760 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		D77E755E24D30DD100DAE760 = {
 			isa = PBXGroup;
 			children = (
-				D71983E425DBD6BD0070D60A /* TTParallaxOnboarding */,
+				D719841025DBE1250070D60A /* TTParallaxOnboarding */,
 				D77E756924D30DD100DAE760 /* TTParallaxOnboardingExample */,
 				D77E756824D30DD100DAE760 /* Products */,
 				D7C3441D25D6809600D63D6D /* Frameworks */,
