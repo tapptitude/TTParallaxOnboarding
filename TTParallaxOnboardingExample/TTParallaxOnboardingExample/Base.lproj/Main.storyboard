@@ -39,9 +39,6 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="vln-hG-fox"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="vO1-qo-G7y"/>
                             </scrollView>
-                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="ih7-zr-oAS">
-                                <rect key="frame" x="145.5" y="736" width="123" height="28"/>
-                            </pageControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cu-vA-kcS">
                                 <rect key="frame" x="119" y="788" width="176" height="50"/>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.68235294120000001" blue="0.2784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -71,17 +68,14 @@
                             <constraint firstItem="7mi-nb-aLo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CcG-rp-4OO"/>
                             <constraint firstItem="dKu-2G-4yh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Cyn-iD-5Oz"/>
                             <constraint firstItem="7mi-nb-aLo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Iye-dJ-88q"/>
-                            <constraint firstItem="3cu-vA-kcS" firstAttribute="centerX" secondItem="ih7-zr-oAS" secondAttribute="centerX" id="ODO-Bk-R0x"/>
                             <constraint firstItem="3cu-vA-kcS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QYN-zJ-DBZ"/>
                             <constraint firstAttribute="bottom" secondItem="dKu-2G-4yh" secondAttribute="bottom" id="WoS-HC-Odf"/>
-                            <constraint firstItem="3cu-vA-kcS" firstAttribute="top" secondItem="ih7-zr-oAS" secondAttribute="bottom" constant="24" id="bl3-rS-hKu"/>
                             <constraint firstAttribute="bottom" secondItem="7mi-nb-aLo" secondAttribute="bottom" id="w4T-2o-88q"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3cu-vA-kcS" secondAttribute="bottom" constant="24" id="wrY-Wv-Rhf"/>
                             <constraint firstItem="dKu-2G-4yh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zHX-Zs-qBK"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="pageControl" destination="ih7-zr-oAS" id="Cab-wK-lGA"/>
                         <outlet property="scrollView" destination="dKu-2G-4yh" id="oZl-Sl-J50"/>
                     </connections>
                 </viewController>
