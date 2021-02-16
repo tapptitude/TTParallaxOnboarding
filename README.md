@@ -1,6 +1,6 @@
 # TTParallaxOnboarding
 
-![](https://img.shields.io/badge/Swift-4.0-green.svg?style=flat)
+![](https://img.shields.io/badge/Swift-5.0-green.svg?style=flat)
 [![SPM compatible](https://img.shields.io/badge/SPM-compatible-4BC51D.svg?style=flat)](https://swift.org/package-manager/)
 [![License: MIT](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](https://github.com/s4cha/Stevia/blob/master/LICENSE)
 [![GitHub tag](https://img.shields.io/github/release/freshos/KeyboardLayoutGuide.svg)](https://github.com/tapptitude/TTParallaxOnboarding/releases)
