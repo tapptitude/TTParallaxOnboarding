@@ -32,22 +32,18 @@ class OnboardingView: UIView {
         self.addSubview(contentView)
         contentView.translatesAutoresizingMaskIntoConstraints = false
         contentView.constrainAllMargins(with: self)
+        self.clipsToBounds = false
+    }
+    
+    init() {
+        super.init(frame: CGRect.zero)
+        self.loadFromNib()
     }
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
         loadFromNib()
     }
-    
-//    func configure(for onboarding: TTParallaxOnboarding) {
-//        onboarding.add(view: rocket, withDepth: 0.7)
-//        clouds.forEach({ onboarding.add(view: $0, withDepth: 0.4)})
-//        onboarding.add(view: zeplin, withDepth: 0.9)
-//        onboarding.add(view: box, withDepth: 0.4)
-//        onboarding.add(view: truck, withDepth: 0.3)
-//        hills.forEach{( onboarding.add(view: $0, withDepth: 0.9))}
-//        onboarding.add(view: mountain, withDepth: 0.6)
-//    }
 }
 
 
